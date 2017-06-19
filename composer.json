@@ -1,0 +1,23 @@
+{
+  "name": "birdsystem/bstool",
+  "require": {
+    "php": ">=5.6",
+    "zendframework/zend-mvc-console": "^1",
+    "zendframework/zend-code": "^3",
+    "zendframework/zend-cache": "^2",
+    "zendframework/zend-db": "^2",
+    "theseer/fdomdocument": "1.6.*",
+    "sebastian/finder-facade": "~1.1",
+    "mattketmo/camel": "@stable"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "BS\\CLI\\": "module/CLI/src"
+    }
+  },
+  "bin": [
+    "bstool"
+  ]
+}
